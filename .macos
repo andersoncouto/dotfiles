@@ -130,7 +130,7 @@ defaults write com.apple.finder FXPreferredViewStyle -string "Clmv"
 #     Privileges -bool true
 
 # Auto hide menu bar
-defaults write NSGlobalDomain _HIHideMenuBar -bool true
+# defaults write NSGlobalDomain _HIHideMenuBar -bool true
 
 ###############################################################################
 # Dock, Dashboard, and hot corners                                            #
@@ -154,7 +154,7 @@ defaults write com.apple.dock minimize-to-application -bool true
 # defaults write com.apple.dock persistent-apps -array
 
 # Show only open applications in the Dock
-defaults write com.apple.dock static-only -bool true
+# defaults write com.apple.dock static-only -bool true
 
 # Group windows by application in Mission Control
 defaults write com.apple.dock expose-group-by-app -bool true
@@ -175,8 +175,8 @@ defaults write com.apple.dock dashboard-in-overlay -bool true
 defaults write com.apple.dock autohide -bool true
 
 # Add iOS & Watch Simulator to Launchpad
-sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" "/Applications/Simulator.app"
-sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator (Watch).app" "/Applications/Simulator (Watch).app"
+# sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator.app" "/Applications/Simulator.app"
+# sudo ln -sf "/Applications/Xcode.app/Contents/Developer/Applications/Simulator (Watch).app" "/Applications/Simulator (Watch).app"
 
 # Hot corners
 # Possible values:
